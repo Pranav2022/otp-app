@@ -1,0 +1,72 @@
+/* globals.css */
+
+body {
+  background-color: #ffffff; /* Light background for a clean look */
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image-logo img {
+  width: 80px; /* Smaller and centered logo */
+  margin: 0 auto 20px;
+  display: block;
+}
+
+p {
+  color: #333; /* Black color for text */
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+input{
+  width: -webkit-fill-available;
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 4px 0 28px 0;
+  padding: 12px 3px 11px 17px;
+  border: 2px solid;
+  border-radius: 9px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #2f8e45; /* Green button background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
